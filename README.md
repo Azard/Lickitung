@@ -1,6 +1,8 @@
 Lickitung
 ==========
 
+[![Build Status](https://travis-ci.org/Azard/Lickitung.svg?branch=master)](https://travis-ci.org/Azard/Lickitung)
+
 ![lickitung](./lickitung.png)
 
 Lickitung is fork from Scapegoat, enhance the static analyze tool.
@@ -39,7 +41,7 @@ Here is sample output from the console during the build for a project with warni
 
 And if you prefer a prettier report, here is a screen shot of the type of HTML report scapegoat generates:
 
-![screenshot](https://raw.githubusercontent.com/sksamuel/scapegoat/master/screenshot1.png)
+![screenshot](./screenshot1.png)
 
 ### Configuration
 
