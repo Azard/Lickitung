@@ -11,15 +11,15 @@ A static code analyzer is a tool that flag suspicious language usage in code. Th
 
 ### Usage
 
-Scala: 2.11.7
-sbt: 0.13.9
+* Scala: 2.11.7
+* sbt: 0.13.9
 
 Lickitung is fork from Scapegoat 0.94.0.
 
 Lickitung is developed as a scala compiler plugin, which can then be used inside your build tool.
 
-See [scalac-scapegoat-plugin](https://github.com/sksamuel/scalac-scapegoat-plugin) for Scapegoat usage
-See [sbt-scapegoat](https://github.com/sksamuel/sbt-scapegoat) for SBT integration.
+* See [scalac-scapegoat-plugin](https://github.com/sksamuel/scalac-scapegoat-plugin) for Scapegoat usage
+* See [sbt-scapegoat](https://github.com/sksamuel/sbt-scapegoat) for SBT integration.
 
 
 ### Reports
