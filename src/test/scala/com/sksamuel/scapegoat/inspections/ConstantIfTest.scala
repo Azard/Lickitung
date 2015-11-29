@@ -1,7 +1,7 @@
 package com.sksamuel.scapegoat.inspections
 
 import com.sksamuel.scapegoat.PluginRunner
-import com.sksamuel.scapegoat.inspections.unneccesary.ConstantIf
+import com.sksamuel.scapegoat.inspections.unnecessary.ConstantIf
 
 import org.scalatest.{ FreeSpec, Matchers, OneInstancePerTest }
 

@@ -1,7 +1,7 @@
 package com.sksamuel.scapegoat.inspections.unnecessary
 
+import com.sksamuel.scapegoat.inspections.unnecessary.UnusedMethodParameter
 import com.sksamuel.scapegoat.{ Warning, PluginRunner }
-import com.sksamuel.scapegoat.inspections.unneccesary.UnusedMethodParameter
 
 import org.scalatest.{ FreeSpec, Matchers, OneInstancePerTest }
 

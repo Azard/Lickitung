@@ -15,7 +15,7 @@ import com.sksamuel.scapegoat.inspections.nulls.{ NullAssignment, NullParameter 
 import com.sksamuel.scapegoat.inspections.option.{ EitherGet, ImpossibleOptionSizeCondition, OptionGet, OptionSize }
 import com.sksamuel.scapegoat.inspections.string._
 import com.sksamuel.scapegoat.inspections.style.{ AvoidOperatorOverload, ParameterlessMethodReturnsUnit, SimplifyBooleanExpression }
-import com.sksamuel.scapegoat.inspections.unneccesary._
+import com.sksamuel.scapegoat.inspections.unnecessary._
 import com.sksamuel.scapegoat.inspections.unsafe._
 
 /** @author Stephen Samuel */

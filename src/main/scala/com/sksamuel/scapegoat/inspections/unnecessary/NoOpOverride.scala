@@ -1,6 +1,6 @@
-package com.sksamuel.scapegoat.inspections
+package com.sksamuel.scapegoat.inspections.unnecessary
 
-import com.sksamuel.scapegoat.{ Inspection, InspectionContext, Inspector, Levels }
+import com.sksamuel.scapegoat.{Inspection, InspectionContext, Inspector, Levels}
 
 /** @author Stephen Samuel */
 class NoOpOverride extends Inspection {

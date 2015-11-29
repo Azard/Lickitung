@@ -1,6 +1,6 @@
-package com.sksamuel.scapegoat.inspections.unneccesary
+package com.sksamuel.scapegoat.inspections.unnecessary
 
-import com.sksamuel.scapegoat.{ Inspection, InspectionContext, Inspector, Levels }
+import com.sksamuel.scapegoat.{Inspection, InspectionContext, Inspector, Levels}
 
 import scala.collection.mutable
 

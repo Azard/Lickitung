@@ -1,4 +1,4 @@
-package com.sksamuel.scapegoat.inspections.unneccesary
+package com.sksamuel.scapegoat.inspections.unnecessary
 
 import com.sksamuel.scapegoat._
 

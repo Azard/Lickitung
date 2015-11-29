@@ -1,7 +1,6 @@
 package com.sksamuel.scapegoat.inspections.unnecessary
 
 import com.sksamuel.scapegoat.PluginRunner
-import com.sksamuel.scapegoat.inspections.unneccesary.UnnecessaryReturnUse
 import org.scalatest.{ FreeSpec, Matchers }
 
 /** @author Stephen Samuel */
