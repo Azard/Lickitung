@@ -47,6 +47,14 @@ And if you prefer a prettier report, here is a screen shot of the type of HTML r
 
 For instructions on suppressing warnings by file, by inspection or by line see [the sbt-scapegoat README](https://github.com/sksamuel/sbt-scapegoat).
 
-### Inspections
+### Lickitung Inspections
+
+There are 1 inspections created or enhanced by Lickitung.
+
+|Name|Brief Description|
+|----|-----------|
+| UnnecessaryOverride | Checks for code that overrides parent method but simply calls super |
+
+### Original Inspections
 
 There are 107 inspections from original Scapegoat 0.94.0. An overview list see [scalac-scapegoat-plugin](https://github.com/sksamuel/scalac-scapegoat-plugin).

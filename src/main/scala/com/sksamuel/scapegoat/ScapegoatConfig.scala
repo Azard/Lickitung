@@ -17,6 +17,7 @@ import com.sksamuel.scapegoat.inspections.string._
 import com.sksamuel.scapegoat.inspections.style.{ AvoidOperatorOverload, ParameterlessMethodReturnsUnit, SimplifyBooleanExpression }
 import com.sksamuel.scapegoat.inspections.unnecessary._
 import com.sksamuel.scapegoat.inspections.unsafe._
+import me.azard.lickitung.inspections.unnecessary._
 
 /** @author Stephen Samuel */
 object ScapegoatConfig extends App {
@@ -114,7 +115,7 @@ object ScapegoatConfig extends App {
     new TryGet,
     new TypeShadowing,
     new UnnecessaryIf,
-    new NoOpOverride,
+    //new NoOpOverride,
     new UnnecessaryReturnUse,
     new UnnecessaryToInt,
     new UnnecessaryToString,
@@ -132,5 +133,6 @@ object ScapegoatConfig extends App {
     // new VarUse,
     new WhileTrue,
     //new WildcardImport,
-    new ZeroNumerator)
+    new ZeroNumerator,
+    new UnnecessaryOverride)
 }
