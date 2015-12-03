@@ -49,12 +49,13 @@ For instructions on suppressing warnings by file, by inspection or by line see [
 
 ### Lickitung Inspections
 
-There are 2 inspections created or enhanced by Lickitung.
+There are 3 inspections created or enhanced by Lickitung.
 
 |Name|Brief Description|
 |----|-----------|
 | UnnecessaryOverride | Checks for code that overrides parent method but simply calls super |
 | ImportOrder | Import order is not beautiful, should be java->javax->scala->others |
+| NullReturn | Return null in function, use Some[T] or None to replace |
 
 ### Original Inspections
 
