@@ -18,6 +18,7 @@ import com.sksamuel.scapegoat.inspections.style.{ AvoidOperatorOverload, Paramet
 import com.sksamuel.scapegoat.inspections.unnecessary._
 import com.sksamuel.scapegoat.inspections.unsafe._
 import me.azard.lickitung.inspections.unnecessary._
+import me.azard.lickitung.inspections.patternmatch.MatchErasureType
 
 /** @author Stephen Samuel */
 object ScapegoatConfig extends App {
@@ -134,5 +135,6 @@ object ScapegoatConfig extends App {
     new WhileTrue,
     //new WildcardImport,
     new ZeroNumerator,
-    new UnnecessaryOverride)
+    new UnnecessaryOverride,
+    new MatchErasureType)
 }
