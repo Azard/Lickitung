@@ -1,6 +1,6 @@
 package me.azard.lickitung.inspections.style
 
-import com.sksamuel.scapegoat.{Levels, Inspection, InspectionContext, Inspector}
+import com.sksamuel.scapegoat.{ Levels, Inspection, InspectionContext, Inspector }
 
 /** @author Azard */
 class ImportOrder extends Inspection {
@@ -32,7 +32,7 @@ class ImportOrder extends Inspection {
             while (firstName == "") {
               firstSection match {
                 case Select(child, _) => firstSection = child
-                case Ident(child) => firstName = child.toString
+                case Ident(child)     => firstName = child.toString
               }
             }
             firstName match {

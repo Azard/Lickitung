@@ -1,6 +1,6 @@
 package me.azard.lickitung.inspections.unnecessary
 
-import com.sksamuel.scapegoat.{Inspection, InspectionContext, Inspector, Levels}
+import com.sksamuel.scapegoat.{ Inspection, InspectionContext, Inspector, Levels }
 
 /** @author Azard */
 class UnnecessaryOverride extends Inspection {
@@ -12,8 +12,7 @@ class UnnecessaryOverride extends Inspection {
 
       override def inspect(tree: Tree): Unit = {
         tree match {
-          case DefDef(mods, name, _, vparamss, _, Apply(Select(Super(This(_), _), name2), args))
-            if name == name2 && vparamss.foldLeft(0)((a, b) => a + b.size) == args.size =>
+          case DefDef(mods, name, _, vparamss, _, Apply(Select(Super(This(_), _), name2), args)) if name == name2 && vparamss.foldLeft(0)((a, b) => a + b.size) == args.size =>
             args match {
               case List(Apply(Select(Apply(_, _), TermName("s")), List(_))) => continue(tree)
               case _ =>
